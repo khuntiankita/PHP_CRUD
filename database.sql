@@ -1,0 +1,11 @@
+DROP  DATABASE IF EXISTS `Person`;
+CREATE DATABASE `Person`;
+USE `Person`;
+CREATE  TABLE
+    `PersonDetails`(
+    `Id` INT  NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    `Username` VARCHAR(30) NOT NULL,
+    `Address` VARCHAR(30) NOT NULL,
+    `Number` VARCHAR(10) NOT NULL,
+    `Password` VARCHAR(30) NOT NULL
+);
